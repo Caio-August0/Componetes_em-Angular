@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
+  declarations: [ // declaração dos componentes é aqui que referenciamos os componentes no modulos
+    AppComponent,
+    CardComponent
   ],
-  imports: [
+  imports: [ // definirmos os modulos
     BrowserModule,
     AppRoutingModule
   ],
