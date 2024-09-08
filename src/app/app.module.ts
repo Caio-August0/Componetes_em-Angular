@@ -3,18 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CardComponent } from './card/card.component';
-import { CardRoxoComponent } from './card-roxo/card-roxo.component';
+import { CardsModule } from './cards/cards.module';
+
 
 @NgModule({
   declarations: [ // declaração dos componentes é aqui que referenciamos os componentes no modulos
-    AppComponent,
-    CardComponent,
-    CardRoxoComponent
+    AppComponent
   ],
   imports: [ // definirmos os modulos
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CardsModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
