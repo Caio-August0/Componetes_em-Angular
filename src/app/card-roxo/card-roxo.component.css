@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.card-roxo {
+    max-width: 300px;
+    background-color: rgb(247, 197, 255);
+    border-radius: 25px;
+    padding: 30px;
+    font-family: 'Poppins',sans-serif;
+    text-shadow: rgba(28, 0, 38, 0.217) 0.1em 0.1em 0.2em;
+    color: white;
+}
+
+.card__plan {
+    padding: 5px;
+    font-size: 22px;
+}
+
+.card__item {
+    padding: 6px;
+}
+
+.card__price {
+    font-weight: 600;
+    font-size: 40px;
+}
+.card__button {
+    font-size: 15px;
+    
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: rgb(117, 39, 212);
+    padding: 11px;
+}
+
